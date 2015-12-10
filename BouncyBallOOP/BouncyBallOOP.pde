@@ -10,15 +10,15 @@ Ball j;
 
 void setup() {
   size(800, 600);
-  b = new Ball();      //initialize b as a new object of the Ball class
-  c = new Ball();
-  d = new Ball();
-  e = new Ball();
-  f = new Ball();
-  g = new Ball();
-  h = new Ball();
-  i = new Ball();
-  j = new Ball();
+  b = new Ball(2,53);      //initialize b as a new object of the Ball class
+  c = new Ball(4,27);
+  d = new Ball(6,56);
+  e = new Ball(2,63);
+  f = new Ball(4,48);
+  g = new Ball(3,63);
+  h = new Ball(2,36);
+  i = new Ball(5,74);
+  j = new Ball(3,47);
 }
 
 void draw() {
